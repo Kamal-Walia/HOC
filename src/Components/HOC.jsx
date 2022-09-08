@@ -30,7 +30,7 @@ const withSearch = (WrappedComponent) => {
       return(
         <div>
           <input type="text" onChange={this.updateSearch} />
-          <WrappedComponent products={updatedProducts}/>
+          <WrappedComponent products={updatedProducts} {...this.props}/>
         </div>
       )
     }

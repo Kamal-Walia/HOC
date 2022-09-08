@@ -1,8 +1,8 @@
 import React from 'react';
 
 class LifeCycleMethods extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             counter: 0
         }

@@ -5,6 +5,7 @@ class ProductList extends React.Component{
     render() {
         return(
             <div>
+                <p>Hello {this.props.fname}</p>
                 {
                     this.props.products.map((item,index) => {
                         return (
@@ -17,4 +18,7 @@ class ProductList extends React.Component{
     }
 }
 
-export default withSearch(ProductList)
+const EnhancedComponent = withSearch(ProductList)
+
+
+export default EnhancedComponent
