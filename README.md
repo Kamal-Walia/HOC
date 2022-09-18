@@ -1,3 +1,3 @@
 This repository includes the following topics as discussed in the class:-
-Life Cycle Methods
-HOC
+1. Life Cycle Methods
+2. HOC
